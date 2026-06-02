@@ -601,7 +601,6 @@ public class NaughtyComponent : MonoBehaviour
 	[MinValue(nameof(minFloatProperty)), MaxValue(nameof(maxFloatProperty))]
 	public float myFloatThroughPropertyName;
 
-
 	private float minFloat = -1;
 	private float maxFloat = 1;
 
